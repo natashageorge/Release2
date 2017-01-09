@@ -15,7 +15,7 @@
 <div class="sidebar">
   <ul class="sidebar-list">
       <li class="sidebar-item">
-        <a href="#" class="sidebar-anchor">HEM</a>
+        <a href="index.php" class="sidebar-anchor">HEM</a>
       </li>
       <li class="sidebar-item">
         <a href="cv.php" class="sidebar-anchor">CV</a>
@@ -50,7 +50,7 @@
 <nav class="meny">
 <div class="inre-kontainer">
 <ul>
-  <li><a href="#">HEM</a></li>
+  <li><a href="index.php">HEM</a></li>
   <li><a href="cv.php">CV</a></li>
   <li><a href="portfolio.php">PORTFOLIO</a></li>
   <li><a href="kontakt.php">KONTAKTA MIG</a></li>
