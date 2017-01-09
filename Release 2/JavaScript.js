@@ -1,31 +1,3 @@
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
- 
-/*burger button starts here*/
-function toggleSidebar() {
-  $(".button").toggleClass("active");
-  $("main").toggleClass("move-to-left");
-  $(".sidebar-item").toggleClass("active");
-}
-
-
-$(".button").on("click tap", function() {
-  toggleSidebar();
-});
-
-$(document).keyup(function(e) {
-  if (e.keyCode === 27) {
-    toggleSidebar();
-  }
-});
-/*burger button ends here*/
-
 //Countdown starts here!
 (function start_LIA_timer()
 {
@@ -40,7 +12,7 @@ function stop(){
   clearInterval(v);
   clerInterval(x);
 }
-function newTimer1() //first countdown for the graduation starts here
+function newTimer1()
 {
     var countername = "examen";
     var obj = getTime('2018-05-31');
@@ -56,7 +28,7 @@ if(obj.days <= 0 && obj.hours <= 0){
     document.getElementById(countername+'_seconds').innerHTML=obj.seconds;
 }
 }
-function newTimer2() //second countdown for the LIA starts here
+function newTimer2()
 {
     var countername = "LIA";
     var obj = getTime('2018-01-15');
@@ -86,3 +58,25 @@ function getTime(endtime) {
     };
 }
 //Countdown ends here!
+
+/*Links to Utbildning information starts here */
+document.getElementById("li1").addEventListener('click', func);
+document.getElementById("li2").addEventListener('click', func);
+function func(){
+if(this.id == "li1"){
+var i = document.getElementById("i1");
+if(i.innerHTML == ""){
+document.getElementById("i1").innerHTML = "Började: 2010 och Slutade: 2013";
+}
+else i.innerHTML = "";
+
+}
+else{
+  var i = document.getElementById("i2");
+  if(i.innerHTML == ""){
+  document.getElementById("i2").innerHTML = "Började: 2016-08-29 och Slutade:2018-05-31";
+  }
+  else i.innerHTML = "";
+  }
+}
+/*Links to Utbildning information ends here */

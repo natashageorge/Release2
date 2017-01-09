@@ -21,7 +21,7 @@
 <figure id="burger"> <i class="fa fa-bars" aria-hidden="true"></i></figure>
 </div>
 </nav>
-<!--Meny två-->
+<!--Meny två--> 
 
 <nav class="mobilemenu">
 <div class="inre-kontainter">
