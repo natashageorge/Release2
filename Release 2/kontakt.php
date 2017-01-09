@@ -8,32 +8,69 @@
 <link rel="stylesheet" href="stylesheet.css" />
 <meta charset="utf-8" />
 </head>
+
 <body>
 
+<!--mobilemenu starts here-->
+<div class="sidebar">
+  <ul class="sidebar-list">
+      <li class="sidebar-item">
+        <a href="#" class="sidebar-anchor">HEM</a>
+      </li>
+      <li class="sidebar-item">
+        <a href="cv.php" class="sidebar-anchor">CV</a>
+      </li>
+      <li class="sidebar-item">
+        <a href="portfolio.php" class="sidebar-anchor">PORTFOLIO</a>
+      </li>
+      <li class="sidebar-item">
+        <a href="kontakt.php" class="sidebar-anchor">KONTAKTA MIG</a>
+      </li>
+    </ul>
+  </div>
+  <div class="nav-right visible-xs">
+    <div class="button" id="btn">
+      <div class="bar top"></div>
+      <div class="bar middle"></div>
+      <div class="bar bottom"></div>
+    </div>
+  </div>
+<main>
 <div class="wrapper">
-<nav class="meny">
-<div class="inre-kontainter">
-<ul>
-  <li><a href="#">HEM</a></li>
-  <li><a href="cv.php">CV</a></li>
-  <li><a href="portfolio.php">PORTFOLIO</a></li>
-  <li><a href="kontakt.php">KONTAKTA MIG</a></li>
-</ul>
-<figure id="burger"> <i class="fa fa-bars" aria-hidden="true"></i></figure>
-</div>
-</nav>
-<!--Meny två-->
+  <nav>
+     <div class="nav-right hidden-xs">
+       <div class="button" id="btn">
+         <div class="bar top"></div>
+         <div class="bar middle"></div>
+         <div class="bar bottom"></div>
+       </div>
+     </div>
+   </nav>
 
-<nav class="mobilemenu">
-<div class="inre-kontainter">
+<nav class="meny">
+<div class="inre-kontainer">
 <ul>
   <li><a href="#">HEM</a></li>
   <li><a href="cv.php">CV</a></li>
   <li><a href="portfolio.php">PORTFOLIO</a></li>
-  <li><a href="kontakt.php">KONTAKTA MIG</a></li>
+  <li><a href="kontakt.html">KONTAKTA MIG</a></li>
 </ul>
+<figure class="logo"><img src="images/logo.png" alt=""> </figure>
 </div>
 </nav>
-<!--Menu two ends here-->
+<!--Meny1 avslutas-->
+<section class="maincv">
+
+
+</section>
+
+<footer id="footer"></footer>
+</main>
+<script src="JS/JavaScript.js"></script>
+<script src="JS/hangman.js"></script>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-586fb769ed92fa88">
+</script>
+</script>
 </body>
 </html>
