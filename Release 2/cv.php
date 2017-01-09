@@ -18,13 +18,13 @@
         <a href="#" class="sidebar-anchor">HEM</a>
       </li>
       <li class="sidebar-item">
-        <a href="#" class="sidebar-anchor">CV</a>
+        <a href="cv.php" class="sidebar-anchor">CV</a>
       </li>
       <li class="sidebar-item">
-        <a href="#" class="sidebar-anchor">PORTFOLIO</a>
+        <a href="portfolio.php" class="sidebar-anchor">PORTFOLIO</a>
       </li>
       <li class="sidebar-item">
-        <a href="#" class="sidebar-anchor">KONTAKTA MIG</a>
+        <a href="kontakt.php" class="sidebar-anchor">KONTAKTA MIG</a>
       </li>
     </ul>
   </div>
@@ -51,8 +51,8 @@
 <div class="inre-kontainer">
 <ul>
   <li><a href="#">HEM</a></li>
-  <li><a href="cv.html">CV</a></li>
-  <li><a href="portfolio.html">PORTFOLIO</a></li>
+  <li><a href="cv.php">CV</a></li>
+  <li><a href="portfolio.php">PORTFOLIO</a></li>
   <li><a href="kontakt.html">KONTAKTA MIG</a></li>
 </ul>
 <figure class="logo"><img src="images/logo.png" alt=""> </figure>
