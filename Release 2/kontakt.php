@@ -9,27 +9,28 @@
 <meta charset="utf-8" />
 </head>
 <body>
+
 <div class="wrapper">
 <nav class="meny">
 <div class="inre-kontainter">
 <ul>
   <li><a href="#">HEM</a></li>
-  <li><a href="cv.html">CV</a></li>
-  <li><a href="portfolio.html">PORTFOLIO</a></li>
-  <li><a href="kontakt.html">KONTAKTA MIG</a></li>
+  <li><a href="cv.php">CV</a></li>
+  <li><a href="portfolio.php">PORTFOLIO</a></li>
+  <li><a href="kontakt.php">KONTAKTA MIG</a></li>
 </ul>
 <figure id="burger"> <i class="fa fa-bars" aria-hidden="true"></i></figure>
 </div>
 </nav>
-<!--Meny två--> 
+<!--Meny två-->
 
 <nav class="mobilemenu">
 <div class="inre-kontainter">
 <ul>
   <li><a href="#">HEM</a></li>
-  <li><a href="cv.html">CV</a></li>
-  <li><a href="portfolio.html">PORTFOLIO</a></li>
-  <li><a href="kontakt.html">KONTAKTA MIG</a></li>
+  <li><a href="cv.php">CV</a></li>
+  <li><a href="portfolio.php">PORTFOLIO</a></li>
+  <li><a href="kontakt.php">KONTAKTA MIG</a></li>
 </ul>
 </div>
 </nav>

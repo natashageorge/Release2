@@ -12,6 +12,7 @@ function stop(){
   clearInterval(v);
   clerInterval(x);
 }
+
 function newTimer1()
 {
     var countername = "examen";

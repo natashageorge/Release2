@@ -5,12 +5,12 @@
   position: fixed;
   z-index: 9999;
   padding-bottom: 35px;
-} 
+}
 .meny ul {
 float: left;
 margin-top: 35px;
 margin-bottom: 35px;
-}
+} 
 .meny li{
 display: inline-block;
 list-style: none;

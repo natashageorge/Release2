@@ -9,9 +9,10 @@
     <link href='https://fonts.googleapis.com/css?family=Architects+Daughter|Gloria+Hallelujah' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="script.js"></script>
     <script> window.onload = draw;</script>
-</head> 
+</head>
 
 <body>
+
     <div id="introPage">
         <div id="introText">
             <p>Welcome to online hangman!</p>

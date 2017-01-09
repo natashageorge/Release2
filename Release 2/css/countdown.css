@@ -4,7 +4,7 @@ margin: 0 auto;
 padding: 10px;
 background: black;
 }
- 
+
 #countdown{
   /*background-image: url(../images/background.jpg); /*Här ändrar jag lite */
   /*margin-top: 140px;*/
@@ -12,7 +12,7 @@ background: black;
   height: 50%;
   float: left;
 }
-
+ 
 .clockdiv {
   background: lightgray;
   width: 70%;
