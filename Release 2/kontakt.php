@@ -53,7 +53,7 @@
   <li><a href="#">HEM</a></li>
   <li><a href="cv.php">CV</a></li>
   <li><a href="portfolio.php">PORTFOLIO</a></li>
-  <li><a href="kontakt.html">KONTAKTA MIG</a></li>
+  <li><a href="kontakt.php">KONTAKTA MIG</a></li>
 </ul>
 <figure class="logo"><img src="images/logo.png" alt=""> </figure>
 </div>

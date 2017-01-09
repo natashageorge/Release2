@@ -117,9 +117,9 @@
 
 <footer id="footer"></footer>
 </main>
+
 <script src="JS/JavaScript.js"></script>
 <script src="JS/hangman.js"></script>
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-586fb769ed92fa88">
 </script>
 </body>
