@@ -1,0 +1,84 @@
+.clockdiv {
+height: 50%;
+margin: 0 auto;
+padding: 10px;
+background: black;
+}
+
+#countdown{
+  /*background-image: url(../images/background.jpg); /*Här ändrar jag lite */
+  /*margin-top: 140px;*/
+  width: 100%;
+  height: 50%;
+  float: left;
+}
+
+.clockdiv {
+  background: lightgray;
+  width: 70%;
+  height: 300px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/*Countdown code starts here!*/
+#clockdiv{
+    font-family: Geneva;
+    color: palevioletred;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: dimgray; /*Ändrar från blå till grå färger här*/
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 5px;
+    border-radius: 3px;
+    background: darkgray;
+    display: inline-block;
+}
+
+#clockdiv2{
+    font-family: Geneva;
+    color: palevioletred;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv2 > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: dimgray;
+    display: inline-block;
+}
+
+#clockdiv2 div > span{
+    padding: 5px;
+    border-radius: 3px;
+    background: darkgray;
+    display: inline-block;
+}
+
+#runtom{
+  background: gray;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+/*Countdown code ends here*/

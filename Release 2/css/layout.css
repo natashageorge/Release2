@@ -1,0 +1,27 @@
+body, html, figure{
+  padding: 0;
+  margin: 0;
+}
+.wrapper{
+  width: 100%;
+  max-width: 1500px;
+}
+.inre-kontainer{
+margin-left: 2%;
+margin-right: 2%;
+}
+
+.content{
+width: 100%;
+background-color: gray;
+height: 200px;
+float: left;
+margin-top: 100px;
+}
+
+#footer {
+  background: dimgray;
+  width: 100%;
+  height: 150px;
+  float: left;
+}
