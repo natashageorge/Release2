@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width= 375, initial-scale= 1">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://use.fontawesome.com/f185a80b16.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans|Oswald" rel="stylesheet">
-  <title></title>
+  <title>Natasha George | Min egen sida</title>
 <link rel="stylesheet" href="stylesheet.css" />
 <meta charset="utf-8" />
 </head>
-
 <body>
 
 <!--mobilemenu starts here-->
@@ -115,7 +116,26 @@
 <br>
 <br>
 
-<footer id="footer"></footer>
+<footer id="footer" class='container-fluid text-center'>
+<ul>
+<li><a href='login.php'>Login</a></li>
+</ul>
+</footer>
+
+
+
+
+
+<!-- <footer id="footer">
+<ul>
+<li><a href="index.php" class="fotgrej">HEM</li></a>
+<li><a href="cv.php" class="fotgrej">CV</li></a>
+<li><a href="portfolio.php" class="fotgrej">PORTFOLIO</li></a>
+<li><a href="kontakt.php" class="fotgrej">KONTAKTA MIG</li></a>
+<li><a href='login.php' class="login">LOGIN</a></li>
+</ul>
+<!- <form method="post" action="login.php"><input type="text" placeholder="username" name="username"><input type="password" placeholder="password" name="password"><input type="submit" value="Submit"></form> -->
+<!--</footer> -->
 </main>
 
 <script src="JS/JavaScript.js"></script>

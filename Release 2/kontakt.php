@@ -21,7 +21,7 @@
         <a href="cv.php" class="sidebar-anchor">CV</a>
       </li>
       <li class="sidebar-item">
-        <a href="portfolio.php" class="sidebar-anchor">PORTFOLIO</a>
+      <a href="portfolio.php" class="sidebar-anchor">PORTFOLIO</a>
       </li>
       <li class="sidebar-item">
         <a href="kontakt.php" class="sidebar-anchor">KONTAKTA MIG</a>

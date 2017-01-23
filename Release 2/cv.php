@@ -45,7 +45,7 @@
          <div class="bar bottom"></div>
        </div>
      </div>
-   </nav>
+   </nav> 
 
 <nav class="meny">
 <div class="inre-kontainer">

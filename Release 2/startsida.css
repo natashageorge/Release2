@@ -1,5 +1,5 @@
 /*Menu code starts here*/
-body{
+/*body{
   text-align: center;
   background: rgba(0, 51, 102, 0.5);
   font-family: Geneva;
@@ -28,9 +28,9 @@ color: white;
     overflow: hidden;
     background-color: rgba(0, 51, 102, 0.5);
 }
- 
+
 li {
-    float: left;
+  float: left;
 }
 
 li a {
@@ -38,7 +38,7 @@ li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 li a:hover {
@@ -49,12 +49,12 @@ li a:hover {
    max-width: 100%;
    background: rgba(0, 51, 102, 0.5);
    max-height: 100%;
-}
+}*/
 /*Menu code stops here*/
 
 
 /*Countdown code starts here!*/
-#clockdiv{
+/*#clockdiv{
     font-family: Geneva;
     color: white;
     display: inline-block;
@@ -104,11 +104,11 @@ li a:hover {
 .smalltext{
     padding-top: 5px;
     font-size: 16px;
-}
+}*/
 /*Countdown code ends here*/
 
 /*Body shapes and color design starts here*/
-.info{
+/*.info{
   float: left;
   margin: auto;
   margin-top: 20px;
@@ -130,11 +130,11 @@ a{
 
 div{
   box-shadow: 2px 2px 2px rgba(0, 51, 102, 0.3);
-}
+}*/
 /*Body shapes and color design stop here*/
 
 /*footer starts here*/
-.footer{
+/*.footer{
     background-color: rgba(0,51, 102, 0.75);
     float:left;
     height: 50px;
@@ -150,14 +150,14 @@ color: deeppink;
 
 .ubl{
   background: none;
-}
+}*/
 /*footer ends here*/
 
 /*"dropdown under education (utbildning) starts css here"*/
-#li1:hover, #li2:hover{
+/*#li1:hover, #li2:hover{
   color: deeppink;
 }
 #li1, #li2{
   font-family: Geneva;
-}
+}*/
 /*"dropdown under education (utbildning) ends css here*/

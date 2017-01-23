@@ -12,11 +12,11 @@ background: -webkit-linear-gradient(#c1c1c1, white, #c1c1c1);
 background: -o-linear-gradient(#c1c1c1, white, #c1c1c1);
 background: -moz-linear-gradient(#c1c1c1, white, #c1c1c1);
 background: linear-gradient(#c1c1c1, white, #c1c1c1); /*GGrå färg här!!!*/
-} 
+}
 
 a{
-color: #b10000; /*röd färg här!!*/
-text-decoration: none;
+color: black;
+text-decoration: none !important;
 }
 
 a:hover{

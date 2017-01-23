@@ -22,7 +22,7 @@ if(obj.days <= 0 && obj.hours <= 0){
 
   document.getElementById("clockdiv").innerHTML = "Jag har tagit examen!";
 }
-  else{  /*var kvar = "days:" + obj.days + " hours:" + obj.hours + " minutes;" + obj.minutes + " seconds:" + obj.seconds;*/
+else{  /*var kvar = "days:" + obj.days + " hours:" + obj.hours + " minutes;" + obj.minutes + " seconds:" + obj.seconds;*/
     document.getElementById(countername+'_days').innerHTML=obj.days;
     document.getElementById(countername+'_hours').innerHTML=obj.hours;
     document.getElementById(countername+'_minutes').innerHTML=obj.minutes;

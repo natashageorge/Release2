@@ -13,7 +13,7 @@
 
 <body>
 
-    <div id="introPage">
+  <div id="introPage">
         <div id="introText">
             <p>Welcome to online hangman!</p>
             <p>Select single player or multiplayer to begin!</p>

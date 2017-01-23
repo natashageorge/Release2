@@ -10,7 +10,7 @@ body, html, figure{
 margin-left: 2%;
 margin-right: 2%;
 }
- 
+
 
 .content{
 width: 100%;
@@ -20,9 +20,16 @@ float: left;
 margin-top: 100px;
 }
 
-#footer {
+.footer {
   background: dimgray;
   width: 100%;
   height: 150px;
   float: left;
+  text-decoration: none !important;
+}
+
+.login{
+height: 30px;
+width: 25px;
+text-decoration: none !important;
 }

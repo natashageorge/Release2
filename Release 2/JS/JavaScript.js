@@ -6,7 +6,7 @@ function myFunction() {
         x.className = "topnav";
     }
 }
-  
+
 /*burger button starts here*/
 function toggleSidebar() {
   $(".button").toggleClass("active");
