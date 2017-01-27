@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<?php $thisPage = "kontakt"; ?>
 <html>
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -8,24 +7,24 @@
   <title></title>
 <link rel="stylesheet" href="stylesheet.css" />
 <meta charset="utf-8" />
-</head> 
+</head>
 
-<body>
+<body> 
 
 <!--mobilemenu starts here-->
 <div class="sidebar">
   <ul class="sidebar-list">
       <li class="sidebar-item">
-        <a href="index.php" class="sidebar-anchor">HEM</a>
+        <a href="index.html" class="sidebar-anchor">HEM</a>
       </li>
       <li class="sidebar-item">
-        <a href="cv.php" class="sidebar-anchor">CV</a>
+        <a href="cv.html" class="sidebar-anchor">CV</a>
       </li>
       <li class="sidebar-item">
-      <a href="portfolio.php" class="sidebar-anchor">PORTFOLIO</a>
+      <a href="portfolio.html" class="sidebar-anchor">PORTFOLIO</a>
       </li>
       <li class="sidebar-item">
-        <a href="kontakt.php" class="sidebar-anchor">KONTAKTA MIG</a>
+        <a href="kontakt.html" class="sidebar-anchor">KONTAKTA MIG</a>
       </li>
     </ul>
   </div>
@@ -51,17 +50,23 @@
 <nav class="meny">
 <div class="inre-kontainer">
 <ul>
-  <li><a href="index.php">HEM</a></li>
-  <li><a href="cv.php">CV</a></li>
-  <li><a href="portfolio.php">PORTFOLIO</a></li>
-  <li><a href="kontakt.php">KONTAKTA MIG</a></li>
+  <li><a href="index.html">HEM</a></li>
+  <li><a href="cv.html">CV</a></li>
+  <li><a href="portfolio.html">PORTFOLIO</a></li>
+  <li><a href="kontakt.html">KONTAKTA MIG</a></li>
 </ul>
 <figure class="logo"><img src="images/logo.png" alt=""> </figure>
 </div>
 </nav>
-
 <!--Meny1 avslutas-->
-<?php include("phpincludes/contactcontent.php"); ?>
+<section class="contact">
+<form method="post">
+<div class="input 1"><input name="name" type="text" required="" placeholder="Namn*"></div>
+<div class="input 2"><input name="email" type="email" required="" placeholder="E-mail*"></div>
+<div class="textarea"><textarea name="message" required="" title="Skriv ditt meddelande här"></textarea></div>
+<div class="input 5"><input type="submit" name="submit" value="skicka"></div>
+</form>
+</section>
 
 <footer id="footer"></footer>
 </main>

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php $thisPage = "cv"; ?>
 <html>
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -9,7 +10,7 @@
 <meta charset="utf-8" />
 </head>
 
-<body>
+<body> 
 
 <!--mobilemenu starts here-->
 <div class="sidebar">
@@ -45,7 +46,7 @@
          <div class="bar bottom"></div>
        </div>
      </div>
-   </nav> 
+   </nav>
 
 <nav class="meny">
 <div class="inre-kontainer">
@@ -61,13 +62,11 @@
 <!--Meny1 avslutas-->
 <section class="maincv">
 
-
 </section>
 
 <footer id="footer"></footer>
 </main>
-<script src="JS/JavaScript.js"></script>
-<script src="JS/hangman.js"></script>
+<script src="JS/menu.js"></script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-586fb769ed92fa88">
 </script>
 </script>

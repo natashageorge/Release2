@@ -5,15 +5,14 @@
 })();
 
 (function start_examen_timer()
-{
+{ 
    v = setInterval(newTimer2, 1000);
 })();
 function stop(){
   clearInterval(v);
   clerInterval(x);
 }
-
-function newTimer1()
+function newTimer1() //first countdown for the graduation starts here
 {
     var countername = "examen";
     var obj = getTime('2018-05-31');
@@ -22,14 +21,14 @@ if(obj.days <= 0 && obj.hours <= 0){
 
   document.getElementById("clockdiv").innerHTML = "Jag har tagit examen!";
 }
-else{  /*var kvar = "days:" + obj.days + " hours:" + obj.hours + " minutes;" + obj.minutes + " seconds:" + obj.seconds;*/
+  else{  /*var kvar = "days:" + obj.days + " hours:" + obj.hours + " minutes;" + obj.minutes + " seconds:" + obj.seconds;*/
     document.getElementById(countername+'_days').innerHTML=obj.days;
     document.getElementById(countername+'_hours').innerHTML=obj.hours;
     document.getElementById(countername+'_minutes').innerHTML=obj.minutes;
     document.getElementById(countername+'_seconds').innerHTML=obj.seconds;
 }
 }
-function newTimer2()
+function newTimer2() //second countdown for the LIA starts here
 {
     var countername = "LIA";
     var obj = getTime('2018-01-15');
@@ -59,25 +58,3 @@ function getTime(endtime) {
     };
 }
 //Countdown ends here!
-
-/*Links to Utbildning information starts here */
-document.getElementById("li1").addEventListener('click', func);
-document.getElementById("li2").addEventListener('click', func);
-function func(){
-if(this.id == "li1"){
-var i = document.getElementById("i1");
-if(i.innerHTML == ""){
-document.getElementById("i1").innerHTML = "Började: 2010 och Slutade: 2013";
-}
-else i.innerHTML = "";
-
-}
-else{
-  var i = document.getElementById("i2");
-  if(i.innerHTML == ""){
-  document.getElementById("i2").innerHTML = "Började: 2016-08-29 och Slutade:2018-05-31";
-  }
-  else i.innerHTML = "";
-  }
-}
-/*Links to Utbildning information ends here */

@@ -2,7 +2,7 @@
 $db = mysqli_connect('george-219313.mysql.binero.se', '219313_ml53506','natashageorge' , '219313-george');
 
 if (isset($_SESSION['admin']) && $_SESSION['admin'] == TRUE) {
-
+ 
     $rubrik = $_POST['rubrik'];
     $breadtext = $_POST['breadtext'];
 

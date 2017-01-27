@@ -1,21 +1,27 @@
 .clockdiv {
-height: 50%;
-margin: 0 auto;
-padding: 10px;
-background: black;
+  background: lightgray;
+  width: 70%;
+  height: 300px;
+  padding-top:10px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
 }
+ 
 
 #countdown{
-  /*background-image: url(../images/background.jpg); /*Här ändrar jag lite */
-  /*margin-top: 140px;*/
   width: 100%;
   height: 50%;
   float: left;
+  background: gray;
+  margin: 0 auto;
+  padding-top: 10px;
 }
 
 .clockdiv {
   background: lightgray;
-  width: 70%;
+  width: 90%;
   height: 300px;
   padding-top: 10px;
   margin-bottom: 10px;
@@ -67,14 +73,6 @@ background: black;
     border-radius: 3px;
     background: darkgray;
     display: inline-block;
-}
-
-#runtom{
-  background: gray;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  padding-top: 10px;
 }
 
 .smalltext{

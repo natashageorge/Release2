@@ -2,7 +2,8 @@ body {
     font-family: 'Raleway', sans-serif;
     color: #333333;
     text-decoration: none !important;
-}
+    list-style: none !important;
+}  
 
 .flex-container {
     display: flex;
@@ -45,8 +46,8 @@ header {
 }
 
 .nav ul a {
-    text-decoration: none;
-    color: white;
+    /*text-decoration: none;*/
+    list-style: none;
 }
 
 .nav-btn {
@@ -203,7 +204,7 @@ header {
     footer {
         -webkit-order:3;
         order:3;
-        text-decoration: none !important;
+        list-style: none !important;
     }
 
 }
