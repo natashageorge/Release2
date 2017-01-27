@@ -60,7 +60,7 @@
 </div>
 </nav>
 <!--Meny1 avslutas-->
-section class="maincv">
+<section class="maincv">
 <article class="cv-content">
 <div contenteditable="true">
 <p>Vad är Lorem Ipsum?
