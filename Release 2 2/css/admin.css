@@ -1,0 +1,210 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+    text-decoration: none !important;
+    list-style: none !important;
+}  
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    flex: 1 100%;
+}
+
+.content {
+    text-align: left;
+}
+
+header {
+    border-bottom: 1px solid #333333;
+}
+
+.admin {
+    margin: auto;
+    padding: 0;
+}
+
+
+
+.nav {
+    border-right: 1px solid #333333;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav ul li div {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul a {
+    /*text-decoration: none;*/
+    list-style: none;
+}
+
+.nav-btn {
+    background-color: #333333;
+    text-align: center;
+    margin: 5px;
+    height: 25px;
+    border-radius: 5px;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.nav-btn:hover {
+    background-color: black;
+}
+
+.book-item {
+
+}
+
+.book-wrapper {
+    color: white;
+    background-color: #333333;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.book-item p {
+    margin: 2px;
+}
+
+.info-div {
+    margin: 10px 0;
+}
+
+
+.fl-right {
+    float: right;
+}
+
+.hidden {
+    display: none;
+}
+
+.click {
+    margin-top: 15px !important;
+}
+
+.pic-container {
+    border: 1px solid #333333;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    vertical-align: top;
+    height: 174px;
+    position: relative;
+    background-color: #333333;
+}
+
+.delete-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 90%;
+    border: 1px solid white;
+    color: white;
+    background-color: #333333;
+    border-radius: 3px;
+}
+
+.delete-btn:hover {
+    background-color: white;
+    color: #333333;
+}
+
+.textwrap {
+    background-color: #333333;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.pic {
+    width: 200px;
+}
+
+
+.pic-btns {
+    display: flex;
+}
+
+.pic-btns button {
+    flex-grow: 1;
+}
+
+.admin-p {
+    margin: 5px 0;
+    padding: 0;
+}
+
+.admin-submit {
+    display: block;
+    margin-top: 5px;
+}
+
+.admin-text {
+    width: 97%;
+    height: 100px;
+}
+
+.text-container {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 450px;
+    margin: 10px;
+}
+
+.booking-btn {
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+
+
+@media all and (min-width: 768px) {
+
+    .nav {
+        text-align:left;
+        -webkit-flex: 1 auto;
+        flex:1 auto;
+        -webkit-order:1;
+        order:1;
+    }
+
+    .content {
+        -webkit-flex:5 0px;
+        flex:5 0px;
+        -webkit-order:2;
+        order:2;
+    }
+
+    footer {
+        -webkit-order:3;
+        order:3;
+        list-style: none !important;
+    }
+
+}
